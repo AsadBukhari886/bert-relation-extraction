@@ -1,11 +1,11 @@
-# 🔍 BERT Relation Extraction Demo
+# BERT Relation Extraction Demo
 
 This project demonstrates **relation extraction** using a fine-tuned **BERT** model.  
 It identifies semantic relationships between entities (e.g., *used_weapon*, *occurred_in*, *handled_by*) from incident-related text data.
 
 ---
 
-## 🧠 Overview
+## Overview
 
 The goal of this project is to extract meaningful **entity relationships** from text, similar to how research papers convert unstructured data (e.g., mass shooting reports) into structured knowledge graphs.
 
@@ -19,7 +19,7 @@ The goal of this project is to extract meaningful **entity relationships** from 
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Component | Description |
 |------------|-------------|
@@ -28,6 +28,11 @@ The goal of this project is to extract meaningful **entity relationships** from 
 | **Hugging Face Transformers** | BERT fine-tuning & tokenization |
 | **Pandas / scikit-learn** | Data preprocessing & evaluation metrics |
 | **Matplotlib / NetworkX** | Visualization of extracted relations |
+
+---
+
+## OutPut
+
 
 ---
 
