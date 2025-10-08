@@ -31,73 +31,77 @@ The goal of this project is to extract meaningful **entity relationships** from 
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
+```bash
 bert_relation_extraction_demo/
 │
-├── dataset.csv # Input dataset: sentence, entity1, entity2, relation
-├── train.py # Fine-tunes BERT model on relation extraction task
-├── predict.py # Interactive CLI for making predictions
-├── visualize.py # Graph visualization of predicted relations
-├── evaluate.py # Computes precision, recall, and F1-score
-├── requirements.txt # Python dependencies
-├── .gitignore # Files excluded from GitHub
-├── model/ # Saved trained model (excluded from repo)
-├── results/ # Training results (optional)
-├── metrics.txt # Evaluation results summary
-└── relation_graph.png # Visualization output image
+├── dataset.csv              # Input dataset: sentence, entity1, entity2, relation
+├── train.py                 # Fine-tunes BERT model on relation extraction task
+├── predict.py               # Interactive CLI for making predictions
+├── visualize.py             # Graph visualization of predicted relations
+├── evaluate.py              # Computes precision, recall, and F1-score
+│
+├── requirements.txt         # Python dependencies
+├── .gitignore               # Files excluded from GitHub
+│
+├── model/                   # Saved trained model (excluded from repo)
+├── results/                 # Training results (optional)
+│
+├── metrics.txt              # Evaluation results summary
+└── relation_graph.png       # Visualization output image
 
 
 ---
 
 ## 🚀 Setup Instructions
 
-### 1️⃣ Create Virtual Environment
+## 1️⃣ Create Virtual Environment
 ```bash
 python -m venv venv
 venv\Scripts\activate        # Windows
+
+
 # OR
 source venv/bin/activate     # macOS/Linux
-2️⃣ Install Dependencies
-bash
-Copy code
+---
+
+## 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
-3️⃣ Train the Model
-bash
-Copy code
+
+---
+## 3️⃣ Train the Model
+
 python train.py
 This trains the BERT model and saves it in the /model folder.
+---
+##4️⃣ Make Predictions
 
-4️⃣ Make Predictions
-bash
-Copy code
 python predict.py
+
 You can then interactively enter:
 
-yaml
-Copy code
 Sentence: John Doe used a rifle at a school.
 Entity 1: John Doe
 Entity 2: rifle
 Output:
 
-yaml
-Copy code
-🔹 Predicted Relation: used_weapon
-🎨 Visualization
+ Predicted Relation: used_weapon
+---
+## Visualization
 After making a few predictions, run:
 
-bash
-Copy code
 python visualize.py
 This generates a graph showing all extracted relations.
 
-Example Visualization Output:
+---
+## Example Visualization Output:
 
 
 (Generated using NetworkX + Matplotlib)
 
-📊 Evaluation Results
+Evaluation Results
 Validation Results (sample run)
 
 Relation	Precision	Recall	F1-score	Support
