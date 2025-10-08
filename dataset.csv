@@ -1,0 +1,66 @@
+sentence,entity1,entity2,relation
+John Doe used a rifle at a school.,John Doe,rifle,used_weapon
+Michael Smith used a handgun in the attack.,Michael Smith,handgun,used_weapon
+David Johnson used a shotgun during the incident.,David Johnson,shotgun,used_weapon
+Robert Brown used a knife in the assault.,Robert Brown,knife,used_weapon
+James Wilson used a pistol at the theater.,James Wilson,pistol,used_weapon
+William Davis used a semi-automatic weapon at a concert.,William Davis,semi-automatic weapon,used_weapon
+Richard Miller used a rifle during the shooting.,Richard Miller,rifle,used_weapon
+Joseph Garcia used a pistol in the attack.,Joseph Garcia,pistol,used_weapon
+Charles Martinez used a machine gun in the assault.,Charles Martinez,machine gun,used_weapon
+Thomas Robinson used a handgun at the restaurant.,Thomas Robinson,handgun,used_weapon
+Daniel Clark used a knife during the incident.,Daniel Clark,knife,used_weapon
+Matthew Rodriguez used a shotgun at the university.,Matthew Rodriguez,shotgun,used_weapon
+Anthony Lewis used a rifle during the attack.,Anthony Lewis,rifle,used_weapon
+Mark Lee used a handgun in the incident.,Mark Lee,handgun,used_weapon
+Paul Walker used a semi-automatic weapon in the event.,Paul Walker,semi-automatic weapon,used_weapon
+The incident occurred in Texas.,incident,Texas,occurred_in
+The attack occurred in Florida.,attack,Florida,occurred_in
+The shooting happened in California.,shooting,California,occurred_in
+The event occurred in New York.,event,New York,occurred_in
+The incident happened in Illinois.,incident,Illinois,occurred_in
+The attack occurred in Georgia.,attack,Georgia,occurred_in
+The shooting took place in Ohio.,shooting,Ohio,occurred_in
+The event occurred in Nevada.,event,Nevada,occurred_in
+The incident happened in Arizona.,incident,Arizona,occurred_in
+The attack occurred in Michigan.,attack,Michigan,occurred_in
+The case was handled by Police.,case,Police,handled_by
+The incident was handled by SWAT.,incident,SWAT,handled_by
+The event was handled by FBI.,event,FBI,handled_by
+The case was handled by Sheriff Department.,case,Sheriff Department,handled_by
+The operation was handled by ATF.,operation,ATF,handled_by
+The shooter targeted a school.,shooter,school,targeted_location
+The gunman targeted a church.,gunman,church,targeted_location
+The attacker targeted a shopping mall.,attacker,shopping mall,targeted_location
+The shooter targeted a theater.,shooter,theater,targeted_location
+The attacker targeted a university.,attacker,university,targeted_location
+The attack injured 3 people.,attack,3 people,injured_victims
+The incident injured 5 people.,incident,5 people,injured_victims
+The event injured 7 people.,event,7 people,injured_victims
+The attack injured 2 people.,attack,2 people,injured_victims
+The shooting injured 6 people.,shooting,6 people,injured_victims
+The attack killed 4 victims.,attack,4 victims,killed_victims
+The incident killed 6 victims.,incident,6 victims,killed_victims
+The shooting killed 3 victims.,shooting,3 victims,killed_victims
+The attack killed 8 victims.,attack,8 victims,killed_victims
+The event killed 5 victims.,event,5 victims,killed_victims
+The suspect was motivated by revenge.,suspect,revenge,motivated_by
+The offender was motivated by domestic dispute.,offender,domestic dispute,motivated_by
+The gunman was motivated by political motive.,gunman,political motive,motivated_by
+The suspect was motivated by hate crime.,suspect,hate crime,motivated_by
+The offender was motivated by personal conflict.,offender,personal conflict,motivated_by
+The suspect was arrested by Police.,suspect,Police,arrested_by
+The shooter was arrested by SWAT.,shooter,SWAT,arrested_by
+The offender was arrested by FBI.,offender,FBI,arrested_by
+The suspect was arrested by Sheriff Department.,suspect,Sheriff Department,arrested_by
+The gunman was arrested by ATF.,gunman,ATF,arrested_by
+The offender was a suspect of the incident.,offender,incident,suspect_of
+The individual was a suspect of the attack.,individual,attack,suspect_of
+The suspect was a suspect of the mass shooting.,suspect,mass shooting,suspect_of
+The offender was a suspect of the event.,offender,event,suspect_of
+The suspect was a suspect of the assault.,suspect,assault,suspect_of
+The suspect had a history of depression.,suspect,depression,mental_health_issue
+The offender had a history of anxiety.,offender,anxiety,mental_health_issue
+The gunman had a history of schizophrenia.,gunman,schizophrenia,mental_health_issue
+The suspect had a history of bipolar disorder.,suspect,bipolar disorder,mental_health_issue
+The offender had a history of PTSD.,offender,PTSD,mental_health_issue

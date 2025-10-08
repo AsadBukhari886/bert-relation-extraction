@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model weights and training outputs
+model/
+results/
+checkpoints/
+*.bin
+*.safetensors
+*.pt
+
+# Temporary / log files
+relations.json
+metrics.txt
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Images (optional, keep only demo ones)
+*.png
+*.jpg
+*.jpeg
+*.svg
+!relation_graph.png   # keep your demo visualization image
