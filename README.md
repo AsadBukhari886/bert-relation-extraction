@@ -33,6 +33,7 @@ The goal of this project is to extract meaningful **entity relationships** from 
 
 ## OutPut
 
+<img width="1920" height="975" alt="relation_graph png" src="https://github.com/user-attachments/assets/bf8af9b7-aac2-4bdf-b2be-7354bb151f4a" />
 
 ---
 
