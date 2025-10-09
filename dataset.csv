@@ -1,66 +1,201 @@
 sentence,entity1,entity2,relation
-John Doe used a rifle at a school.,John Doe,rifle,used_weapon
-Michael Smith used a handgun in the attack.,Michael Smith,handgun,used_weapon
-David Johnson used a shotgun during the incident.,David Johnson,shotgun,used_weapon
-Robert Brown used a knife in the assault.,Robert Brown,knife,used_weapon
-James Wilson used a pistol at the theater.,James Wilson,pistol,used_weapon
-William Davis used a semi-automatic weapon at a concert.,William Davis,semi-automatic weapon,used_weapon
-Richard Miller used a rifle during the shooting.,Richard Miller,rifle,used_weapon
-Joseph Garcia used a pistol in the attack.,Joseph Garcia,pistol,used_weapon
-Charles Martinez used a machine gun in the assault.,Charles Martinez,machine gun,used_weapon
-Thomas Robinson used a handgun at the restaurant.,Thomas Robinson,handgun,used_weapon
-Daniel Clark used a knife during the incident.,Daniel Clark,knife,used_weapon
-Matthew Rodriguez used a shotgun at the university.,Matthew Rodriguez,shotgun,used_weapon
-Anthony Lewis used a rifle during the attack.,Anthony Lewis,rifle,used_weapon
-Mark Lee used a handgun in the incident.,Mark Lee,handgun,used_weapon
-Paul Walker used a semi-automatic weapon in the event.,Paul Walker,semi-automatic weapon,used_weapon
-The incident occurred in Texas.,incident,Texas,occurred_in
-The attack occurred in Florida.,attack,Florida,occurred_in
-The shooting happened in California.,shooting,California,occurred_in
-The event occurred in New York.,event,New York,occurred_in
-The incident happened in Illinois.,incident,Illinois,occurred_in
-The attack occurred in Georgia.,attack,Georgia,occurred_in
-The shooting took place in Ohio.,shooting,Ohio,occurred_in
-The event occurred in Nevada.,event,Nevada,occurred_in
-The incident happened in Arizona.,incident,Arizona,occurred_in
-The attack occurred in Michigan.,attack,Michigan,occurred_in
-The case was handled by Police.,case,Police,handled_by
-The incident was handled by SWAT.,incident,SWAT,handled_by
-The event was handled by FBI.,event,FBI,handled_by
-The case was handled by Sheriff Department.,case,Sheriff Department,handled_by
-The operation was handled by ATF.,operation,ATF,handled_by
-The shooter targeted a school.,shooter,school,targeted_location
-The gunman targeted a church.,gunman,church,targeted_location
-The attacker targeted a shopping mall.,attacker,shopping mall,targeted_location
-The shooter targeted a theater.,shooter,theater,targeted_location
-The attacker targeted a university.,attacker,university,targeted_location
-The attack injured 3 people.,attack,3 people,injured_victims
-The incident injured 5 people.,incident,5 people,injured_victims
-The event injured 7 people.,event,7 people,injured_victims
-The attack injured 2 people.,attack,2 people,injured_victims
-The shooting injured 6 people.,shooting,6 people,injured_victims
-The attack killed 4 victims.,attack,4 victims,killed_victims
-The incident killed 6 victims.,incident,6 victims,killed_victims
-The shooting killed 3 victims.,shooting,3 victims,killed_victims
-The attack killed 8 victims.,attack,8 victims,killed_victims
-The event killed 5 victims.,event,5 victims,killed_victims
-The suspect was motivated by revenge.,suspect,revenge,motivated_by
-The offender was motivated by domestic dispute.,offender,domestic dispute,motivated_by
-The gunman was motivated by political motive.,gunman,political motive,motivated_by
-The suspect was motivated by hate crime.,suspect,hate crime,motivated_by
-The offender was motivated by personal conflict.,offender,personal conflict,motivated_by
-The suspect was arrested by Police.,suspect,Police,arrested_by
-The shooter was arrested by SWAT.,shooter,SWAT,arrested_by
-The offender was arrested by FBI.,offender,FBI,arrested_by
-The suspect was arrested by Sheriff Department.,suspect,Sheriff Department,arrested_by
-The gunman was arrested by ATF.,gunman,ATF,arrested_by
-The offender was a suspect of the incident.,offender,incident,suspect_of
-The individual was a suspect of the attack.,individual,attack,suspect_of
-The suspect was a suspect of the mass shooting.,suspect,mass shooting,suspect_of
-The offender was a suspect of the event.,offender,event,suspect_of
-The suspect was a suspect of the assault.,suspect,assault,suspect_of
-The suspect had a history of depression.,suspect,depression,mental_health_issue
-The offender had a history of anxiety.,offender,anxiety,mental_health_issue
-The gunman had a history of schizophrenia.,gunman,schizophrenia,mental_health_issue
-The suspect had a history of bipolar disorder.,suspect,bipolar disorder,mental_health_issue
-The offender had a history of PTSD.,offender,PTSD,mental_health_issue
+John Doe used a crossbow in the crossbow.,John Doe,crossbow,used_weapon
+Michael Smith used a shotgun at the shotgun.,Michael Smith,shotgun,used_weapon
+David Johnson used a semi-automatic weapon in the semi-automatic weapon.,David Johnson,semi-automatic weapon,used_weapon
+Robert Brown used a shotgun in the shotgun.,Robert Brown,shotgun,used_weapon
+James Wilson used a knife in the knife.,James Wilson,knife,used_weapon
+William Davis used a shotgun at the shotgun.,William Davis,shotgun,used_weapon
+Richard Miller used a bow at the bow.,Richard Miller,bow,used_weapon
+Joseph Garcia used a crossbow at the crossbow.,Joseph Garcia,crossbow,used_weapon
+Charles Martinez used a semi-automatic weapon during the semi-automatic weapon.,Charles Martinez,semi-automatic weapon,used_weapon
+Thomas Robinson used a handgun during the handgun.,Thomas Robinson,handgun,used_weapon
+Daniel Clark used a crossbow at the crossbow.,Daniel Clark,crossbow,used_weapon
+Matthew Rodriguez used a rifle at the rifle.,Matthew Rodriguez,rifle,used_weapon
+Anthony Lewis used a pistol in the pistol.,Anthony Lewis,pistol,used_weapon
+Mark Lee used a rifle in the rifle.,Mark Lee,rifle,used_weapon
+Paul Walker used a bow during the bow.,Paul Walker,bow,used_weapon
+Andrew Hall used a handgun at the handgun.,Andrew Hall,handgun,used_weapon
+Steven Young used a shotgun during the shotgun.,Steven Young,shotgun,used_weapon
+Kevin King used a knife in the knife.,Kevin King,knife,used_weapon
+Brian Scott used a pistol during the pistol.,Brian Scott,pistol,used_weapon
+Jason Green used a knife in the knife.,Jason Green,knife,used_weapon
+Eric Adams used a crossbow in the crossbow.,Eric Adams,crossbow,used_weapon
+Ryan Baker used a machine gun during the machine gun.,Ryan Baker,machine gun,used_weapon
+Jacob Nelson used a bow at the bow.,Jacob Nelson,bow,used_weapon
+Justin Carter used a spear at the spear.,Justin Carter,spear,used_weapon
+Gary Mitchell used a handgun at the handgun.,Gary Mitchell,handgun,used_weapon
+Timothy Perez used a semi-automatic weapon at the semi-automatic weapon.,Timothy Perez,semi-automatic weapon,used_weapon
+Larry Roberts used a pistol at the pistol.,Larry Roberts,pistol,used_weapon
+Jeffrey Turner used a crossbow at the crossbow.,Jeffrey Turner,crossbow,used_weapon
+Frank Collins used a knife in the knife.,Frank Collins,knife,used_weapon
+Scott Edwards used a spear at the spear.,Scott Edwards,spear,used_weapon
+Brandon Morris used a spear at the spear.,Brandon Morris,spear,used_weapon
+Raymond Murphy used a semi-automatic weapon in the semi-automatic weapon.,Raymond Murphy,semi-automatic weapon,used_weapon
+Patrick Cook used a knife at the knife.,Patrick Cook,knife,used_weapon
+Stephen Rogers used a pistol during the pistol.,Stephen Rogers,pistol,used_weapon
+Kenneth Reed used a shotgun in the shotgun.,Kenneth Reed,shotgun,used_weapon
+Edward Stewart used a shotgun during the shotgun.,Edward Stewart,shotgun,used_weapon
+Sean Bailey used a crossbow in the crossbow.,Sean Bailey,crossbow,used_weapon
+Gregory Jenkins used a rifle in the rifle.,Gregory Jenkins,rifle,used_weapon
+Dennis Long used a machine gun in the machine gun.,Dennis Long,machine gun,used_weapon
+Jerry Hughes used a pistol at the pistol.,Jerry Hughes,pistol,used_weapon
+Walter Foster used a semi-automatic weapon during the semi-automatic weapon.,Walter Foster,semi-automatic weapon,used_weapon
+Douglas Price used a shotgun in the shotgun.,Douglas Price,shotgun,used_weapon
+Peter Bell used a spear in the spear.,Peter Bell,spear,used_weapon
+Harold Ward used a spear at the spear.,Harold Ward,spear,used_weapon
+Carl Brooks used a rifle in the rifle.,Carl Brooks,rifle,used_weapon
+Arthur Sanders used a pistol in the pistol.,Arthur Sanders,pistol,used_weapon
+Ryan Coleman used a spear during the spear.,Ryan Coleman,spear,used_weapon
+Lawrence Powell used a pistol during the pistol.,Lawrence Powell,pistol,used_weapon
+Anthony Butler used a spear during the spear.,Anthony Butler,spear,used_weapon
+Nicholas Simmons used a knife in the knife.,Nicholas Simmons,knife,used_weapon
+The South Dakota happened in South Dakota.,assault,South Dakota,occurred_in
+The Washington happened in Washington.,massacre,Washington,occurred_in
+The Oklahoma happened in Oklahoma.,riot,Oklahoma,occurred_in
+The Vermont took place in Vermont.,standoff,Vermont,occurred_in
+The Kansas took place in Kansas.,attack,Kansas,occurred_in
+The California occurred in California.,ambush,California,occurred_in
+The Vermont took place in Vermont.,ambush,Vermont,occurred_in
+The Arkansas occurred in Arkansas.,incident,Arkansas,occurred_in
+The Kentucky occurred in Kentucky.,ambush,Kentucky,occurred_in
+The Louisiana occurred in Louisiana.,attack,Louisiana,occurred_in
+The Wyoming took place in Wyoming.,massacre,Wyoming,occurred_in
+The Utah happened in Utah.,hijacking,Utah,occurred_in
+The Oklahoma took place in Oklahoma.,shooting,Oklahoma,occurred_in
+The Connecticut took place in Connecticut.,riot,Connecticut,occurred_in
+The Michigan took place in Michigan.,massacre,Michigan,occurred_in
+The California happened in California.,assault,California,occurred_in
+The Iowa happened in Iowa.,robbery,Iowa,occurred_in
+The Florida took place in Florida.,shooting,Florida,occurred_in
+The New York occurred in New York.,ambush,New York,occurred_in
+The Massachusetts happened in Massachusetts.,hijacking,Massachusetts,occurred_in
+The Kansas took place in Kansas.,shooting,Kansas,occurred_in
+The Georgia occurred in Georgia.,standoff,Georgia,occurred_in
+The Texas occurred in Texas.,ambush,Texas,occurred_in
+The Texas took place in Texas.,incident,Texas,occurred_in
+The Delaware occurred in Delaware.,incident,Delaware,occurred_in
+The Louisiana took place in Louisiana.,assault,Louisiana,occurred_in
+The Georgia took place in Georgia.,shooting,Georgia,occurred_in
+The Kentucky occurred in Kentucky.,incident,Kentucky,occurred_in
+The Maryland took place in Maryland.,ambush,Maryland,occurred_in
+The Alaska took place in Alaska.,massacre,Alaska,occurred_in
+The Iowa occurred in Iowa.,massacre,Iowa,occurred_in
+The Louisiana took place in Louisiana.,standoff,Louisiana,occurred_in
+The Michigan happened in Michigan.,massacre,Michigan,occurred_in
+The North Carolina occurred in North Carolina.,robbery,North Carolina,occurred_in
+The Colorado occurred in Colorado.,shooting,Colorado,occurred_in
+The New York happened in New York.,massacre,New York,occurred_in
+The Florida happened in Florida.,shooting,Florida,occurred_in
+The Maryland happened in Maryland.,robbery,Maryland,occurred_in
+The California happened in California.,attack,California,occurred_in
+The Maine happened in Maine.,riot,Maine,occurred_in
+The Virginia happened in Virginia.,standoff,Virginia,occurred_in
+The Ohio happened in Ohio.,ambush,Ohio,occurred_in
+The Kentucky took place in Kentucky.,ambush,Kentucky,occurred_in
+The Iowa took place in Iowa.,attack,Iowa,occurred_in
+The Missouri took place in Missouri.,hijacking,Missouri,occurred_in
+The Rhode Island happened in Rhode Island.,hijacking,Rhode Island,occurred_in
+The Indiana happened in Indiana.,assault,Indiana,occurred_in
+The Rhode Island occurred in Rhode Island.,robbery,Rhode Island,occurred_in
+The Mississippi took place in Mississippi.,hijacking,Mississippi,occurred_in
+The Pennsylvania took place in Pennsylvania.,robbery,Pennsylvania,occurred_in
+The CIA was handled by CIA.,operation,CIA,handled_by
+The Sheriff Department was handled by Sheriff Department.,riot,Sheriff Department,handled_by
+The ATF was handled by ATF.,assault,ATF,handled_by
+The Police was handled by Police.,shooting,Police,handled_by
+The Local Police was handled by Local Police.,hijacking,Local Police,handled_by
+The Secret Service was handled by Secret Service.,incident,Secret Service,handled_by
+The Sheriff Department was handled by Sheriff Department.,assault,Sheriff Department,handled_by
+The FBI was handled by FBI.,attack,FBI,handled_by
+The Police was handled by Police.,attack,Police,handled_by
+The Sheriff Department was handled by Sheriff Department.,hijacking,Sheriff Department,handled_by
+The Secret Service was handled by Secret Service.,attack,Secret Service,handled_by
+The State Troopers was handled by State Troopers.,standoff,State Troopers,handled_by
+The FBI was handled by FBI.,assault,FBI,handled_by
+The CIA was handled by CIA.,incident,CIA,handled_by
+The State Troopers was handled by State Troopers.,standoff,State Troopers,handled_by
+The CIA was handled by CIA.,standoff,CIA,handled_by
+The Police was handled by Police.,operation,Police,handled_by
+The Police was handled by Police.,robbery,Police,handled_by
+The CIA was handled by CIA.,massacre,CIA,handled_by
+The Local Police was handled by Local Police.,ambush,Local Police,handled_by
+The Secret Service was handled by Secret Service.,incident,Secret Service,handled_by
+The Homeland Security was handled by Homeland Security.,case,Homeland Security,handled_by
+The Homeland Security was handled by Homeland Security.,massacre,Homeland Security,handled_by
+The SWAT was handled by SWAT.,shooting,SWAT,handled_by
+The Police was handled by Police.,shooting,Police,handled_by
+The Police was handled by Police.,standoff,Police,handled_by
+The Homeland Security was handled by Homeland Security.,robbery,Homeland Security,handled_by
+The State Troopers was handled by State Troopers.,case,State Troopers,handled_by
+The Homeland Security was handled by Homeland Security.,ambush,Homeland Security,handled_by
+The ATF was handled by ATF.,attack,ATF,handled_by
+The Secret Service was handled by Secret Service.,standoff,Secret Service,handled_by
+The Secret Service was handled by Secret Service.,attack,Secret Service,handled_by
+The Homeland Security was handled by Homeland Security.,robbery,Homeland Security,handled_by
+The State Troopers was handled by State Troopers.,shooting,State Troopers,handled_by
+The CIA was handled by CIA.,assault,CIA,handled_by
+The Secret Service was handled by Secret Service.,hijacking,Secret Service,handled_by
+The Local Police was handled by Local Police.,riot,Local Police,handled_by
+The Police was handled by Police.,attack,Police,handled_by
+The SWAT was handled by SWAT.,attack,SWAT,handled_by
+The State Troopers was handled by State Troopers.,robbery,State Troopers,handled_by
+The Homeland Security was handled by Homeland Security.,incident,Homeland Security,handled_by
+The Sheriff Department was handled by Sheriff Department.,massacre,Sheriff Department,handled_by
+The Police was handled by Police.,standoff,Police,handled_by
+The Police was handled by Police.,standoff,Police,handled_by
+The State Troopers was handled by State Troopers.,riot,State Troopers,handled_by
+The CIA was handled by CIA.,riot,CIA,handled_by
+The Secret Service was handled by Secret Service.,shooting,Secret Service,handled_by
+The Secret Service was handled by Secret Service.,assault,Secret Service,handled_by
+The Sheriff Department was handled by Sheriff Department.,operation,Sheriff Department,handled_by
+The Police was handled by Police.,hijacking,Police,handled_by
+Shooter19 targeted a university.,Shooter19,university,targeted_location
+Shooter31 attacked the mall.,Shooter31,mall,targeted_location
+Shooter37 attacked the church.,Shooter37,church,targeted_location
+Shooter20 targeted a restaurant.,Shooter20,restaurant,targeted_location
+Shooter46 targeted a concert.,Shooter46,concert,targeted_location
+Shooter31 aimed at the park.,Shooter31,park,targeted_location
+Shooter1 attacked the stadium.,Shooter1,stadium,targeted_location
+Shooter19 attacked the university.,Shooter19,university,targeted_location
+Shooter41 targeted a theater.,Shooter41,theater,targeted_location
+Shooter33 attacked the theater.,Shooter33,theater,targeted_location
+Shooter35 attacked the park.,Shooter35,park,targeted_location
+Shooter46 aimed at the airport.,Shooter46,airport,targeted_location
+Shooter37 targeted a theater.,Shooter37,theater,targeted_location
+Shooter22 attacked the stadium.,Shooter22,stadium,targeted_location
+Shooter37 aimed at the church.,Shooter37,church,targeted_location
+Shooter35 aimed at the airport.,Shooter35,airport,targeted_location
+Shooter35 aimed at the concert.,Shooter35,concert,targeted_location
+Shooter14 attacked the concert.,Shooter14,concert,targeted_location
+Shooter27 attacked the university.,Shooter27,university,targeted_location
+Shooter49 targeted a concert.,Shooter49,concert,targeted_location
+Shooter48 attacked the airport.,Shooter48,airport,targeted_location
+Shooter40 attacked the concert.,Shooter40,concert,targeted_location
+Shooter20 aimed at the park.,Shooter20,park,targeted_location
+Shooter7 targeted a concert.,Shooter7,concert,targeted_location
+Shooter20 aimed at the stadium.,Shooter20,stadium,targeted_location
+Shooter35 targeted a church.,Shooter35,church,targeted_location
+Shooter46 attacked the concert.,Shooter46,concert,targeted_location
+Shooter2 attacked the theater.,Shooter2,theater,targeted_location
+Shooter17 aimed at the park.,Shooter17,park,targeted_location
+Shooter7 aimed at the airport.,Shooter7,airport,targeted_location
+Shooter40 aimed at the concert.,Shooter40,concert,targeted_location
+Shooter29 targeted a university.,Shooter29,university,targeted_location
+Shooter7 targeted a theater.,Shooter7,theater,targeted_location
+Shooter37 aimed at the university.,Shooter37,university,targeted_location
+Shooter3 attacked the airport.,Shooter3,airport,targeted_location
+Shooter34 aimed at the restaurant.,Shooter34,restaurant,targeted_location
+Shooter6 aimed at the mall.,Shooter6,mall,targeted_location
+Shooter23 targeted a stadium.,Shooter23,stadium,targeted_location
+Shooter44 targeted a park.,Shooter44,park,targeted_location
+Shooter20 targeted a stadium.,Shooter20,stadium,targeted_location
+Shooter25 aimed at the concert.,Shooter25,concert,targeted_location
+Shooter22 targeted a school.,Shooter22,school,targeted_location
+Shooter17 aimed at the restaurant.,Shooter17,restaurant,targeted_location
+Shooter18 attacked the theater.,Shooter18,theater,targeted_location
+Shooter14 attacked the church.,Shooter14,church,targeted_location
+Shooter24 aimed at the airport.,Shooter24,airport,targeted_location
+Shooter22 targeted a stadium.,Shooter22,stadium,targeted_location
+Shooter37 targeted a stadium.,Shooter37,stadium,targeted_location
+Shooter5 targeted a park.,Shooter5,park,targeted_location
+Shooter39 attacked the restaurant.,Shooter39,restaurant,targeted_location
