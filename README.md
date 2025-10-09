@@ -78,6 +78,13 @@ python train.py
 # This trains the BERT model and saves it in the /model folder.
 ```
 
+### Fix Config.py
+
+```bash
+python fix.config.py
+# Run this command to fix config.json in ./model
+```
+
 ### 4️⃣ Make Predictions
 ```bash
 python predict.py
@@ -106,20 +113,18 @@ python visualize.py
 ### Evaluation Results (sample run)
 
 | Relation | Precision | Recall | F1-score | Support |
-|----------|-----------|--------|----------|---------|
-| used_weapon | 0.44 | 1.00 | 0.61 | 4 |
-| occurred_in | 0.33 | 1.00 | 0.50 | 1 |
-| targeted_location | 0.00 | 0.00 | 0.00 | 2 |
-| killed_victims | 0.00 | 0.00 | 0.00 | 1 |
-| motivated_by | 0.00 | 0.00 | 0.00 | 1 |
-| arrested_by | 0.00 | 0.00 | 0.00 | 1 |
-| mental_health_issue | 0.00 | 0.00 | 0.00 | 3 |
+|-----------|-----------|--------|----------|---------|
+| used_weapon | 1.00 | 1.00 | 1.00 | 6 |
+| occurred_in | 1.00 | 1.00 | 1.00 | 15 |
+| handled_by | 1.00 | 1.00 | 1.00 | 9 |
+| targeted_location | 1.00 | 1.00 | 1.00 | 10 |
 
-**Accuracy:** 38.46%  
-**Macro Avg F1:** 0.1593  
-**Weighted Avg F1:** 0.2278  
+**Accuracy:** 100.00%  
+**Macro Avg F1:** 1.0000  
+**Weighted Avg F1:** 1.0000  
 
-🧩 Note: These results are from an early prototype trained on a small, imbalanced dataset. With more balanced data and 5–8 epochs of training, performance is expected to improve significantly.
+🧩 **Note:** These results are from the fine-tuned BERT model trained on a well-structured synthetic dataset with clear relation boundaries.  
+While performance is perfect on this dataset, additional testing on real-world and unseen examples is recommended to confirm generalization capability.
 
 ---
 
